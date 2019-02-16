@@ -27,7 +27,7 @@ public class LinearSearch {
 		}
 		else
 		{
-			System.out.println(elementToSearch+" found at position "+index);
+			System.out.println(elementToSearch+" found at Index "+index);
 		}
 	}
 	
