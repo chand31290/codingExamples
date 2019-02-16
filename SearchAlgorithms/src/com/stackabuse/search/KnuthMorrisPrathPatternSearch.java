@@ -56,6 +56,7 @@ public class KnuthMorrisPrathPatternSearch {
 				}
 			}
 		}
+		System.out.println("Compiled Pattern Array " + Arrays.toString(compliedPatternArray));
 		return compliedPatternArray;
 	}
 
@@ -63,7 +64,6 @@ public class KnuthMorrisPrathPatternSearch {
 
 		String pattern = "AAABAAA";
 		String text = "ASBNSAAAAAABAAAAABAAAAAGAHUHDJKDDKSHAAJF";
-		System.out.println(Arrays.toString(compilePatternArray(pattern)));
 
 		List<Integer> foundIndexes = KnuthMorrisPrathPatternSearch.performKMPSearch(text, pattern);
 
